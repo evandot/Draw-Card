@@ -52,7 +52,7 @@ def winningsTotal(cards):
             total += 40
             RoundEach.append(40)
         # Ace of Spades rule
-        elif 'Ace of Spades' in card:
+        elif 'Ace' in card:
             total += 15
             RoundEach.append(15)
         # Hearts and Diamonds rule
