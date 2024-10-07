@@ -18,10 +18,10 @@ def set_probabilities(deck):
             weights.append(4/53)
         elif 'Hearts' in card or 'Diamonds' in card:
             # Hearts and Diamonds together should have a probability of 24/53, distributed across 26 cards
-            weights.append(24/53)  # Each Heart and Diamonds card gets equal weight
+            weights.append(24/53 /26 )  # Each Heart and Diamonds card gets equal weight
         elif 'Clubs' in card or 'Spades' in card:
             # Clubs and Spades (excluding Ace of Spades) should have a probability of 24/53, distributed across 25 cards
-            weights.append(24/53)  # Each Clubs and Spades card gets equal weight
+            weights.append(24/53 /25)  # Each Clubs and Spades card gets equal weight
     return weights
 
 
