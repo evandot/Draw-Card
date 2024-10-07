@@ -14,8 +14,8 @@ def set_probabilities(deck):
         if card == 'Joker':
             # Joker should have a probability of 1/53
             weights.append(1/53)
-        elif card == 'Ace of Spades':
-            # Ace of Spades should have a probability of 4/53
+        elif card == 'Ace':
+            # Ace should have a probability of 4/53
             weights.append(4/53)
         elif 'Hearts' in card or 'Diamonds' in card:
             # Hearts and Diamonds together should have a probability of 24/53, distributed across 26 cards
