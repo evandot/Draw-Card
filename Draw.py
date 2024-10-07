@@ -85,7 +85,7 @@ def main():
         total_winnings = winningsTotal(cards)
         for total_winnings in total_winnings:
             print(total_winnings)
-        #print(f"Your total winnings are: {total_winnings} points")
+        print(f"Your total winnings are: {total_winnings} points")
 
         drawAgain = input("Would you want to draw again? (Y/N): ").upper()
 
